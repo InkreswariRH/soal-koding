@@ -34,17 +34,20 @@ for ($i = 0; $i < count($alice); $i++) {
 }
 
 // sekarang tinggal mengurutkan elemen array. Disini bisa menggunakan algoritma pengurutan apapun. Tetapi, disini saya akan menggunakan algoritma pengurutan bubble sort.
+for ($j = 0; $j < count($gabung); $j++) {
+   echo "iterasi ke- " . $j + 1 . "<br>";
+   for ($i = 0; $i < count($gabung) - 1; $i++) {
+      if ($gabung[$i] > $gabung[$i + 1]) {
+         $temp = $gabung[$i + 1];
+         $gabung[$i + 1] = $gabung[$i];
+         $gabung[$i] = $temp;
+      }
 
-for ($i = 0; $i < count($gabung) - 1; $i++) {
-   if ($gabung[$i] > $gabung[$i + 1]) {
-      $temp = $gabung[$i + 1];
-      $gabung[$i + 1] = $gabung[$i];
-      $gabung[$i] = $temp;
-   }
-
-   // ini iterasi untuk nampilin progress proses aja (nampilin output tiap proses iterasi), tanpa baris kode for ini juga bener bener aja.
-   for ($x = 0; $x < count($gabung); $x++) {
-      echo $gabung[$x] . " ";
+      // ini iterasi untuk nampilin progress proses aja (nampilin output tiap proses iterasi), tanpa baris kode for ini juga bener bener aja.
+      for ($x = 0; $x < count($gabung); $x++) {
+         echo $gabung[$x] . " ";
+      }
+      echo "<br>";
    }
    echo "<br>";
 }
