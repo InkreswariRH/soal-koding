@@ -1,4 +1,5 @@
 <?php
+// SOAL:
 // Buatlah fungsi yang dapat menghasilkan output seperti dibawah ini:
 
 // input n = 5
@@ -14,6 +15,8 @@
 // 123**67
 // 1234**7
 
+
+// JAWABAN:
 function input($jumlahInput)
 {
 

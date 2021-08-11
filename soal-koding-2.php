@@ -1,5 +1,5 @@
 <?php
-
+// SOAL:
 // Misalkan kita dapat mengakses harga saham apple sebagai list/array, dimana:
 // • index array sebagai waktu dalam menit setelah jam perdagangan saham dimulai.
 // • Nilai dalam elemen tersebut merupakan harga saham pada saat itu.
@@ -20,6 +20,9 @@
 // # returns 6 (5 dan 11)
 
 
+
+
+// JAWABAN:
 // deklarasikan array
 $harga = [10, 7, 5, 8, 11, 9, 1];
 
