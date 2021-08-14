@@ -6,7 +6,7 @@ Algoritma pada source code ini merupakan algoritma atau cara saya dalam menyeles
 
 So, feel free to improve the codes and the algorithm.
 
-=========================================================================================================
+===========================================================================================
 
 This is repository for some examples of coding questions along with the answer.
 
